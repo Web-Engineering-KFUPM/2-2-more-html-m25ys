@@ -3,9 +3,9 @@
   STUDENT STARTER (HTML ONLY): Build a simple social media page
 
   SUBMISSION CHECKLIST (verify each TODO below is completed):
-  1) TODO: Add ONE main container that wraps the entire page
-  2) TODO: Wrap the header in a container (header/div)
-  3) TODO: Wrap EACH post in its own container (div)
+  1) TODO: Add ONE main container that wraps the entire page done
+  2) TODO: Wrap the header in a container (header/div) done 
+  3) TODO: Wrap EACH post in its own container (div) done
   4) TODO: Add a nav container with 3 internal links: #home, #create, #about
   5) TODO: Add ONE external link to HTML docs that opens in a new tab
   6) TODO: Make the form use action="#" and method="post"
@@ -18,6 +18,7 @@
  13) TODO: Link an external CSS file (styles.css) in the <head>
 -->
 <html lang="en">
+  <main>
   <head>
     <meta charset="UTF-8">
     <title>Social Media Starter (HTML Only)</title>
@@ -28,12 +29,14 @@
   <body>
     <!-- TODO (Containers - 1/3): Add ONE main container that wraps the entire page content below. -->
     <!-- Example idea: <div id="app"> (open it here) ... and close it at the very end of the body. -->
+    <div id = "app">
 
     <!-- HEADER -->
     <!-- TODO (Containers - 2/3): Wrap this header in a semantic <header> or a <div>. -->
+    <header>
     <h1>Simple Social Media - Starter</h1>
     <p>This is a starter. Finish the TODOs in comments to complete the page.</p>
-
+    </header>
     <!-- NAVIGATION -->
     <!-- TODO (Links - 1/3): Create a small nav container (e.g., <div>) with three internal links: -->
     <!-- TODO: Link 1 -> <a href="#home">Home</a> -->
@@ -57,17 +60,20 @@
     <h3>Posts</h3>
     <!-- TODO (Containers - 3/3): Wrap EACH post in its own container (e.g., <div>). -->
     <!-- Post 1 - TODO: Wrap me in a container -->
+    <div>
     <h4>John Smith</h4>
     <p>Hello! This is my first post in this class.</p>
-
+    </div>
     <!-- Post 2 - TODO: Wrap me in a container -->
+    <div>
     <h4>Mary Johnson</h4>
     <p>HTML is clear once you learn the basic building blocks.</p>
-
+    </div>
     <!-- Post 3 - TODO: Wrap me in a container -->
+    <div>
     <h4>Alex Brown</h4>
     <p>Next, I want to try adding styles with CSS.</p>
-
+    </div>
     <!-- CREATE SECTION -->
     <h2 id="create">Create</h2>
     <p>Complete the form below so it could be used to create a new post.</p>
@@ -102,5 +108,7 @@
     <p>© 2024 Web Fundamentals</p>
 
     <!-- TODO: Close your main container here if you opened one at the top. -->
+    </div>
   </body>
+  </main>
 </html>
